@@ -1,0 +1,28 @@
+.line {
+    fill: none;
+    stroke-width: 2px;
+  }
+  .axis path,
+  .axis line {
+    fill: none;
+    stroke: black;
+    shape-rendering: crispEdges;
+  }
+  .axis text {
+    font-size: 0.8em;
+  }
+  .legend {
+    font-size: 0.9em;
+    margin-top: 10px;
+  }
+  .legend-item {
+    display: inline-block;
+    margin-right: 20px;
+  }
+  .legend-color {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin-right: 5px;
+    border-radius: 50%;
+  }
